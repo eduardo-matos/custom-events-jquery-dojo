@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Eventos customizados em Dojo</title>
+</head>
+<body>
+
+    <!-- Dojo version -->
+    <!-- Usando módulos customizados com CDN: http://dojotoolkit.org/documentation/tutorials/1.9/cdn/ -->
+    <script src="//ajax.googleapis.com/ajax/libs/dojo/1.9.0/dojo/dojo.js"
+        data-dojo-config="async: true,
+            packages: [{
+                name: 'app',
+                location: location.pathname.replace(/\/[^/]+$/, '') + '/dojo'
+            }]"></script>
+    <script src="dojo/app.js"></script>
+</body>
+</html>
